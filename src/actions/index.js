@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_KEY = '68474242';
-const ROOT_URL = `http://www.omdbapi.com/?apikey=${API_KEY}`;
+const ROOT_URL = `https://www.omdbapi.com/?apikey=${API_KEY}`;
 
 export const FETCH_MOVIE = 'FETCH_MOVIE';
 export const REMOVE_MOVIE = 'REMOVE_MOVIE';
