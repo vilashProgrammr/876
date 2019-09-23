@@ -13,7 +13,7 @@
     "redux-promise": "^0.5.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=4200 HOST=0.0.0.0 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
